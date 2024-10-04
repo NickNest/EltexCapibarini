@@ -17,4 +17,14 @@ public class GroundObstacle : MonoBehaviour
     }
     
     public void UpdateSpeed(float speed) => this.speed = speed;
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.IsChildOf(transform))
+        {
+            return;
+        }
+        if (other.CompareTag("Player"))
+            ActionManager.OnTouchingObstacle();
+    }
 }

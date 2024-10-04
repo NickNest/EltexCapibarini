@@ -6,6 +6,7 @@ public class ScoringTrigger : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        ActionManager.OnScoring();
+        if(other.tag == "Player")
+            ActionManager.OnScoring();
     }
 }

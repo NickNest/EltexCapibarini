@@ -16,7 +16,7 @@ public class OstacleDinoSpawner : MonoBehaviour
     {
         if (currentTimeToSpawn <= 0)
         {
-            var currentObject = Instantiate(_objectPrefab[UnityEngine.Random.Range(0, _objectPrefab.Length - 1)]);
+            var currentObject = Instantiate(_objectPrefab[UnityEngine.Random.Range(0, _objectPrefab.Length)]);
             currentTimeToSpawn = startTimeToSpawn;
         }
         currentTimeToSpawn -= Time.deltaTime;
