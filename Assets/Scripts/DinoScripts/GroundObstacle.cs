@@ -20,10 +20,6 @@ public class GroundObstacle : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.transform.IsChildOf(transform))
-        {
-            return;
-        }
         if (other.CompareTag("Player"))
             ActionManager.OnTouchingObstacle();
     }

@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreText : MonoBehaviour
+public class ScoreTextCatching : MonoBehaviour
 {
     [SerializeField] private Text scoreText;
     private int currentScore;
@@ -15,7 +15,7 @@ public class ScoreText : MonoBehaviour
     }
     void Update()
     {
-        currentScore = GameManager.gameManager.score;
+        currentScore = GameManagerCatching.gameManager.score;
         scoreText.text = currentScore.ToString();
     }
 }
