@@ -1,21 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScoreTextCatching : MonoBehaviour
 {
-    [SerializeField] private Text scoreText;
-    private int currentScore;
+    [SerializeField] private TMP_Text _scoreText;
+    private int _currentScore;
 
-    void Start()
-    {
-    }
     void Update()
     {
-        currentScore = GameManagerCatching.gameManager.score;
-        scoreText.text = currentScore.ToString();
+        _currentScore = GameManagerCatching.gameManager.score;
+        _scoreText.text = _currentScore.ToString();
     }
 }

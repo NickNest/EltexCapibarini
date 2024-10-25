@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cc883d29c7d63472f9224797ba8d75a0
+guid: 9f151c9933998c4478423f391f96a925
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerNameInput_1
+      name: rb_49115_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 284
-        width: 188
-        height: 58
+        x: 534
+        y: 1098
+        width: 413
+        height: 414
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,29 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c48b02559bd5b499b3ea733376eeb5
-      internalID: 447930504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerNameInput_8
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 84
-        width: 188
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17100ec81c1a19d46a6e03991bb2a16d
-      internalID: 427573971
+      spriteID: 51c31db07b8a72d4aba1f9653f445804
+      internalID: -37117257
       vertices: []
       indices: 
       edges: []
@@ -188,16 +167,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerNameInput_0: -404974043
-      PlayerNameInput_1: 447930504
-      PlayerNameInput_2: -482025016
-      PlayerNameInput_3: -373833432
-      PlayerNameInput_4: -427888710
-      PlayerNameInput_5: -1887134241
-      PlayerNameInput_6: 985507567
-      PlayerNameInput_7: 29846432
-      PlayerNameInput_8: 427573971
-      PlayerNameInput_9: 824290557
+      rb_49115_0: -37117257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

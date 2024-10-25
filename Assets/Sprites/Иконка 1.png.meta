@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cc883d29c7d63472f9224797ba8d75a0
+guid: e473044f51c943045acfc836062063de
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,49 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: PlayerNameInput_1
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 284
-        width: 188
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6c48b02559bd5b499b3ea733376eeb5
-      internalID: 447930504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerNameInput_8
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 84
-        width: 188
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17100ec81c1a19d46a6e03991bb2a16d
-      internalID: 427573971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -187,17 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      PlayerNameInput_0: -404974043
-      PlayerNameInput_1: 447930504
-      PlayerNameInput_2: -482025016
-      PlayerNameInput_3: -373833432
-      PlayerNameInput_4: -427888710
-      PlayerNameInput_5: -1887134241
-      PlayerNameInput_6: 985507567
-      PlayerNameInput_7: 29846432
-      PlayerNameInput_8: 427573971
-      PlayerNameInput_9: 824290557
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
